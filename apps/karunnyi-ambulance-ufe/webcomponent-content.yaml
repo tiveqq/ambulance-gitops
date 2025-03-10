@@ -4,7 +4,10 @@ metadata:
   name: karunnyi-ambulance-ufe-content
 spec:
   microFrontend: karunnyi-ambulance-ufe
-  element: karunnyi-ambulance-wl-list
+  element: karunnyi-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /karunnyi-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
