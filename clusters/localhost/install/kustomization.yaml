@@ -17,3 +17,4 @@ patches:
 components:
 - ../../../components/version-developers
 - https://github.com/tiveqq/ambulance-webapi//deployments/kustomize/components/mongodb
+  - CSP_HEADER=default-src 'self'; font-src 'self'; script-src 'strict-dynamic' 'nonce-{NONCE_VALUE}'; worker-src 'self'; manifest-src 'self'; style-src 'self' 'strict-dynamic' 'nonce-{NONCE_VALUE}'; style-src-attr 'self' 'unsafe-inline'; img-src *; connect-src 'self' localhost:30331 localhost:30081;
