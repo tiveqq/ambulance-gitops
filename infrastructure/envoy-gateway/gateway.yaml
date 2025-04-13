@@ -9,6 +9,6 @@ spec:
   - allowedRoutes:
         namespaces:
           from: All
-  - name: http
+    name: http
     protocol: HTTP
     port: 80
